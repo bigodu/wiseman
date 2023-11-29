@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin:  0;
+    font-family: sans-serif;
+}
+
+.background{
+    background-image: url(background\ PETER.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* css for background image ends here */
+
+/* css for nav menu starts here */
+
+
+.navbar {
+color: white;
+width: 85%;
+margin: auto;
+padding: 35px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+/* css for nav menu starts here */
+
+.content{
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate();
+    text-align: center;
+}
+
+
+.content h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.content p{
+    margin: 20px;
+    font-weight: 100px;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25PX;
+    font-weight: bold;
+    border: 2PX solid green;
+
+}
+
+/* css for body ends here*/
+
+@media (max-width:800px) {
+.menu ul li{
+        display: block;
+        text-align: center;
+        background-color: blueviolet;
+        color: white;
+        padding: 10px 100px;
+
+    }
+
+        
+    }
+
+    @media (max-width: 700px) {
+       .content h1{
+        font-size: 25px;
+        margin-top: 50px;
+       }
+       
+       
+       .content p{
+            font-size: 15px;
+        }
+        
+        .btn{
+            display: flex;
+        }
+        .btn button{
+            width: 100px;
+            margin: 20px 3px;
+        }
+    }
+
+
